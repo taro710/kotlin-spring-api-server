@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 class Controller {
     @GetMapping(
         value = ["/api/hoge"],
-//        produces = ["application/json"]
+        produces = ["application/json"]
     )
     fun apiAroundPropertiesGet(
     ): String {
